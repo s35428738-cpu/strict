@@ -1,0 +1,715 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a, a:hover{
+    text-decoration: none;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', Times, serif;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+/* Global CSS Start Here */
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+.col-md-4{
+    width: 33.33%;
+    float: left;
+}
+/* Global CSS End Here */
+
+/* header-section CSS Start Here */
+.header-section{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+}
+.header-section .logo{
+    padding: 15px 0;
+}
+.header-section .nav{
+    padding: 24px 0;
+    text-align: right;
+}
+.header-section .nav ul li{
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.header-section .nav ul li a{
+    color: #000;
+    transition: 0.8s;
+}
+.header-section .nav ul li a:hover{
+    color: #15a4fa;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #15a4fa;
+}
+/* header-section CSS End Here */
+/* banner-section CSS Start Here */
+.banner-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: url(../img/Banner.png) center top no-repeat;
+    background-size: cover;
+}
+.banner-section .banner-inner{
+    padding: 80px 0;
+    text-align: center;
+}
+.banner-section .banner-inner h1{
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 100px;
+    text-transform: uppercase;
+    /* margin-bottom: 20px; */
+}
+.divider{
+    width: 40%;
+    height: 2px;
+    margin: 25px auto;
+    background: #15a4fa;
+    border: none;
+}
+.banner-section .banner-inner p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+.banner-section .banner-inner .btn-info{
+    border: 1px solid #15a4fa;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 10px 25px;
+    color: #fff;
+    background: transparent;
+    border-radius: 2px;
+    transition: 1s;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.banner-section .banner-inner .btn-info:hover{
+    background: #15a4fa;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #15a4fa;
+}
+.banner-section .banner-inner .icon{
+    padding: 80px 0 40px;
+    margin-top: 80px;
+}
+/* banner-section CSS End Here */
+
+/* Simple-section CSS Start Here */
+
+.simple-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: #f6f9f9;
+}
+.simple-section .simple-inner{
+    text-align: center;
+}
+.simple-section .simple-inner h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.simple-section .simple-inner p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #999;
+    font-weight: 400;
+}
+/* Simple-section CSS End Here */
+
+/* Feature section CSS Start Here */
+.feature-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+}
+.feature-inner{
+    text-align: center;
+}
+.feature-inner img{
+    margin-bottom: 20px;
+}
+.feature-inner h3{
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.feature-inner p{
+    font-size: 14px;
+    color: #999;
+}
+/* Feature section CSS End Here */
+
+/* portfolio-section CSS Start Here */
+.portfolio-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: #f6f9f9;
+}
+.portfolio-section .title{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.portfolio-section .title h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.portfolio-section .title p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+}
+.gap{
+    margin-top: 15px;
+}
+.portfolio-inner{
+    position: relative;
+}
+.port-hover{
+    width: 93.5%;
+    height: 97.5%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgb(25, 156, 235, 0.8);
+    display: none;
+}
+.inner-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.portfolio-inner:hover .port-hover{
+    display: block;
+}
+.port-hover a{
+    margin: 0 5px;
+} 
+/* portfolio-section CSS End Here */
+
+/* Stay-section CSS Start here */
+.stay-section{
+    width: 100%;
+    float: left;
+    padding: 80px 0;
+    background: url("../img/Stay.png") center top no-repeat;
+    background-size: cover;
+}
+.stay-section .title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.stay-section .title h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.stay-section .title p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #999;
+}
+.main-form{
+    width: 55%;
+    margin: 0 auto;
+}
+.form-group{
+    margin: 10px 0;
+}
+.form-control{
+    width: 95%;
+    padding: 12px;
+    background: transparent;
+    border: 2px solid #999;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+.col-md-8{
+    width: 66.67%;
+    float: left;
+}
+span{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.btn-primary{
+    background: transparent;
+    padding: 10px 30px;
+    font-size: 16px;* {
+  padding: 0;
+  margin: 0;
+}
+/* global css code start */
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+.row {
+  width: 100%;
+  float: left;
+}
+
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+.col-md-12 {
+  width: 100%;
+  float: left;
+}
+.col-md-4 {
+  width: 33.33%;
+  float: left;
+}
+.col-md-3 {
+  width: 25%;
+  float: left;
+}
+.col-md-8 {
+  width: 66.66%;
+  float: left;
+}
+/* global css code start  */
+
+/* header-section start here */
+.header-section {
+  width: 100%;
+  float: left;
+  background-color: #f6f9f9;
+}
+.header-section .logo {
+  padding: 15px 0;
+}
+.header-section .nav {
+  padding: 24px 0;
+  text-align: right;
+}
+
+.nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 25px;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  transition: 1s;
+}
+
+.nav ul li a:hover {
+  color: #15a4fa;
+  /* background: #15a4fa; */
+  padding: 10px;
+}
+/* header section end here  */
+
+/* banner section start  */
+.banner-section {
+  width: 100%;
+  float: left;
+  background: url("../img/Banner.png") center top no-repeat;
+  background-size: cover;
+  padding: 80px 0 40px;
+}
+
+.banner-inner {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 80px 0;
+}
+.banner-inner h1 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+.banner-inner .divider {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #15a4fa;
+  height: 1px;
+  border: none;
+}
+
+.banner-inner p {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 25px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+}
+
+.btn-info {
+  padding: 15px 25px;
+  border: 1px solid #15a4fa;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background: transparent;
+  margin: 25px 0;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: 1s;
+}
+
+.btn-info:hover {
+  background-color: #15a4fa;
+  font-size: 18px;
+}
+
+.icon {
+  padding: 80px 0 0px;
+  margin-top: 80px;
+}
+/* banner section end   */
+
+/* simple section start  */
+
+.simple-section {
+  width: 100%;
+  background: #f6f9f9;
+  padding: 80px 0;
+
+  float: left;
+}
+.simple-inner {
+  text-align: center;
+}
+.simple-section h1 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 90px;
+  color: #242323;
+  font-family: "Lato", sans-serif;
+}
+
+.simple-inner p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+}
+/* simple section end  */
+/* feature section start  */
+
+.feature-section {
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+}
+
+.feature-inner {
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding: 0 20px;
+}
+.feature-inner img {
+  margin-bottom: 25px;
+}
+.feature-inner h1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  color: #2c2c2c;
+}
+.feature-inner p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+}
+
+/* Feature section end   */
+/* Portfolio section start  */
+.portfolio-section {
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+  background-color: #f6f9f9;
+}
+
+.portfolio-section .title {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.portfolio-section .title h1 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #242323;
+  font-family: "Lato", sans-serif;
+}
+.portfolio-section .title p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+}
+
+.gap {
+  margin-top: 24px;
+}
+.portfolio-section .portfolio-inner {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.portfolio-section .portfolio-inner .portfolio-hover {
+  background: #199ceb;
+  height: 99%;
+  width: 93%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  display: none;
+}
+.portfolio-section .portfolio-inner .portfolio-hover .inner-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.portfolio-section .portfolio-inner:hover .portfolio-hover {
+  display: block;
+}
+
+/* stay section start  */
+.stay-section {
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+  background: url(../img/Stay.png) center top no-repeat;
+}
+.stay-section .title {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.stay-section .title h2 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+.stay-section .title p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+}
+.main-form {
+  margin: 0 auto;
+  width: 60%;
+}
+.stay-section .main-form .form-group {
+  width: 100%;
+  float: left;
+  margin: 10px 0;
+}
+
+.stay-section .main-form .form-group .form-control {
+  width: 96%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}
+.stay-section .btn-primary {
+  padding: 10px 30px;
+  border: 1px solid #15a4fa;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  background: transparent;
+  /* margin: 25px 0; */
+  display: inline-block;
+
+  border-radius: 3px;
+  transition: 1s;
+}
+.stay-section .btn-primary:hover {
+  color: #fff;
+  background-color: #15a4fa;
+  margin-left: 10px;
+}
+.text-right {
+  text-align: right;
+}
+.subscribe {
+  color: #fff;
+}
+.form-group span {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+/* stay section end  */
+/* Footer section start  */
+.footer-section {
+  width: 100%;
+  float: left;
+  background-color: #f6f9f9;
+  padding: 10px 0;
+}
+.footer-section p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #999999;
+  margin-top: 5px;
+}
+.footer-section .social-icon {
+  text-align: right;
+}
+.footer-section ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 1px;
+}
+.footer-section ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #15a4fa;
+  transition: 1s;
+}
+.footer-section ul li a:hover {
+  font-size: 26px;
+  padding: 2px;
+}
+/* footer section end  */
+
+    color: #fff;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    transition: 1s;
+}
+.btn-primary:hover{
+    background: #15a4fa;
+    color: #fff;
+}
+.text-right{
+    text-align: right;
+}
+/* Stay-section CSS End here */
+
+
+
+/* foorer section css start here */
+.footer-section{
+  width: 100%;
+  float: left;
+  padding: 15px 0;
+  background: #f6f9f9;
+}
+.footer-section p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #999;
+}
+.social-icon{
+  text-align: right;
+}
+.social-icon ul li a{
+  width: 30px;
+  height: 40px;
+  background: #15a4fa;
+  font-size: 16px;
+  color: #fff;
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid #15a4fa;
+  border-radius: 2px;
+  transition: 1s;
+}
+.social-icon ul li a:hover{
+  color: #15a4fa;
+  background:#fff ;
+  font-size: 35px;
+}
+
+/* foorer section css end here */
+
+
+/* slider-section */
+ 
+.slider-section{
+  width: 100%;
+  float: left;
+  padding: 80px;
+  background: #f6f9f9;
+}
